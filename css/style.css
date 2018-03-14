@@ -1,57 +1,22 @@
 body {
-    margin: 0;
     padding: 0;
-}
-img {
-    width: 100%;
-    margin: 0 auto;
-}
-div {
-    border: 1px solid red;
+    margin: 0;
 }
 .container {
     max-width: 750px;
-    margin: 0 auto;
-    border: 1px solid blue;
 }
-/* Specific css below ths line */
-.logo {
-    float: right;
-    width: 17rem;
-}
-.welcome {
-    float: left;
-    width: 20rem;
-    border: 1px solid red;
-}
-.header ul {
-    display: flex;
-    justify-content: flex-end;
+/* Additional css below this line */
+.navigationBar ul{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     list-style: none;
 }
-.header li {
-    padding: 0 1rem 0 0;
+.navigationBar img{
+    max-width: 20vh;
 }
-.header li:hover{
-    background-color: gray;
-    color: white;
+.navigationBar li{
+    text-align: center;
 }
-/* Trying three columns */
-.container1 {
-  border: 1px solid orange;
-}
-.container1 div {
-  height: 250px;
-  width: 250px;
-  background: red;
-  display: inline-block;
-}
-#div1 {
-  float: left;
-}
-#div3 {
-  float: right;
-}
-#div2 {
-  margin: auto;
+.welcomeToBaden img{
+    width: 100%;
 }
