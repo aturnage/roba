@@ -1,3 +1,6 @@
+html {
+    background-color: white;
+}
 body {
     padding: 0;
     margin: 0;
@@ -6,17 +9,40 @@ body {
     max-width: 750px;
 }
 /* Additional css below this line */
+.navigationBar{
+    background-color: white;
+    max-width: auto;
+}
 .navigationBar ul{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     list-style: none;
-}
-.navigationBar img{
-    max-width: 20vh;
+    margin: 0;
 }
 .navigationBar li{
-    text-align: center;
+    font-size: 10px;
+    padding: 2em 0 0 0;
 }
-.welcomeToBaden img{
+.navigationBar img{
+    max-width: 14vh;
+}
+#robaLogo {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#robaLogo img {
     width: 100%;
+}
+.robaLinks ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0 auto;
+    background-color: #35bab9;
+}
+.robaLinks li{
+    margin: 0 auto;
+    color: white;
+    padding: 3em;
+    /* background-color: purple; */
 }
