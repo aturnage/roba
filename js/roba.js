@@ -49,7 +49,8 @@ $visionTitle
     .css("color","red");
 
 // Controls all titles with title tag
-$(".title").css("text-align", "center")
+$(".title")
+    .css("text-align", "center");
 
 var $visionContent = $(".visionContent");
 

@@ -7,13 +7,14 @@ body {
 }
 .container {
     max-width: 750px;
+    margin: 0 auto;
 }
 /* Additional css below this line */
 .navigationBar{
     background-color: white;
     max-width: auto;
 }
-.navigationBar ul{
+.navigationBar ul {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     list-style: none;
@@ -44,5 +45,20 @@ body {
     margin: 0 auto;
     color: white;
     padding: 3em;
-    /* background-color: purple; */
+}
+.robaLinks img{
+    width: 50px;
+}
+.mainPics ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+.mainPics li{
+    width: 100%;
+}
+.mainPics img{
+    width: 100%;
 }
