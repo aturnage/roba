@@ -21,11 +21,12 @@ body {
     margin: 0;
 }
 .navigationBar li{
-    font-size: 10px;
+    color: gray;
     padding: 2em 0 0 0;
 }
 .navigationBar img{
-    max-width: 14vh;
+    /* max-width: 14vh; */
+    width: 50px;
 }
 #robaLogo {
     max-width: 700px;
@@ -67,7 +68,7 @@ body {
 }
 .footer{
     background-color: #21800c;
-    height:200px;
+    height:100px;
 }
 .footer ul{
     display: grid;
@@ -91,4 +92,12 @@ body {
 }
 .mainImg{
     width: 50px;
+    margin: 20px 0 0 0;
+}
+.visonList{
+    color: gray;
+}
+.blueDivider{
+    height: 5px;
+    background-color: #35bab9;
 }

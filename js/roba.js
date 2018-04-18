@@ -44,11 +44,12 @@ $purposeContent
 
 // Controls all titles with title tag
 $(".title")
-    .css("text-align", "center")
-    .css("color","#35bab9")
-    .css("list-style", "none")
-    .css("display", "inline");
-
+    .css({
+        "text-align":"center",
+        "color":"#35bab9",
+        "list-style":"none",
+        "display":"inline"
+    });
 
 // API PRACTICE
 var $content = $( "#content");
