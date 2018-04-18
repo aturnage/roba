@@ -4,11 +4,54 @@ $.get("navigation.html", function(data){
 });
 
 // Insert robaLinks bar in site
-$.get("robaLinks.html", function(data){
+$.get("robalinks.html", function(data){
     $(".robaLinks").replaceWith(data);
 });
 
 // Content for Roba mission statement/purpose/vision
+var $missionTitle = $(".missionTitle");
+var $missionContent = $(".missionContent");
+var $purposeTitle = $(".purposeTitle");
+var $purposeContent = $(".purposeContent");
+var $visionTitle = $(".visionTitle");
+var $visionContent = $(".visionContent");
+
+var missionTitle = "Our Mission"
+var missionContent = "To revitalize Baden through beautification, crime prevention, community and economic development while promoting the City of Baden for business/economic development and home ownership."
+var purposeTitle = "Our Purpose"
+var purposeContent = "To provide a voice and effective means of conveying the concerns of business owners and residents and create and maintain transparency with business owners and residents regarding issues related to; Crime & Safety, Social & Economic Development, Residential & Commercial Development, Education, Arts & Culture, Historic Preservation, Problem Properties, Mobility and Community Benefits Agreements, for the enjoyment and fulfillment of the Neighborhood’s business owners and residents."
+var visionTitle = "Our Vision"
+var visionContent = ["To work with residents to foster a strong sense of community and welcoming environment for visitors",
+                    "To produce programs and events that celebrate our community and bring neighbors together",
+                    "To advocate for the community around issues of land use, infrastructure, traffic and beautification",
+                    "To develop and implement neighborhood resource programs for youth and seniors",
+                    "To foster and implement programs for business and economic development",
+                    "To develop and maintain favorable relations with government officials"
+                    ]
+$missionTitle
+    .text(missionTitle)
+    .css("color","gray");
+
+$missionContent
+    .text(missionContent)
+    .css("color","gray");
+
+$purposeTitle
+    .text(purposeTitle)
+    .css("color","gray");
+
+$purposeContent
+    .text(purposeContent)
+    .css("color","gray");
+
+$visionTitle
+    .text(visionTitle)
+    .css("color","red");
+
+// Controls all titles with title tag
+$(".title").css("text-align", "center")
+
+var $visionContent = $(".visionContent");
 
 // API PRACTICE
 var $content = $( "#content");
