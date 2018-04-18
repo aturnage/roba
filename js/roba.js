@@ -8,6 +8,11 @@ $.get("robalinks.html", function(data){
     $(".robaLinks").replaceWith(data);
 });
 
+// Insert footer bar in site
+$.get("footer.html", function(data){
+    $(".footer").replaceWith(data);
+});
+
 // Content for Roba mission statement/purpose/vision
 var $missionTitle = $(".missionTitle");
 var $missionContent = $(".missionContent");
@@ -28,31 +33,22 @@ var visionContent = ["To work with residents to foster a strong sense of communi
                     "To foster and implement programs for business and economic development",
                     "To develop and maintain favorable relations with government officials"
                     ]
-$missionTitle
-    .text(missionTitle)
-    .css("color","gray");
 
 $missionContent
     .text(missionContent)
-    .css("color","gray");
-
-$purposeTitle
-    .text(purposeTitle)
     .css("color","gray");
 
 $purposeContent
     .text(purposeContent)
     .css("color","gray");
 
-$visionTitle
-    .text(visionTitle)
-    .css("color","red");
-
 // Controls all titles with title tag
 $(".title")
-    .css("text-align", "center");
+    .css("text-align", "center")
+    .css("color","#35bab9")
+    .css("list-style", "none")
+    .css("display", "inline");
 
-var $visionContent = $(".visionContent");
 
 // API PRACTICE
 var $content = $( "#content");

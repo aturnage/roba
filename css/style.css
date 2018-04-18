@@ -34,6 +34,9 @@ body {
 #robaLogo img {
     width: 100%;
 }
+.robaLinks{
+    margin: 0 0 20px 0;
+}
 .robaLinks ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -61,4 +64,31 @@ body {
 }
 .mainPics img{
     width: 100%;
+}
+.footer{
+    background-color: #21800c;
+    height:200px;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer img{
+    width:40px;
+    margin: 10px;
+}
+.footerlist{
+    /* width: 200px; */
+}
+.footerlist li{
+    font-size: 10px;
+}
+.footer > ul > li {
+    color: pink;
+}
+.mainImg{
+    width: 50px;
 }
